@@ -12,9 +12,10 @@ def hello_world():
 def test():
   return "test is working"
 
+
 @app.route("/history")
 def history():
-  return render_template("history.html)
+  return render_template("history.html")
 
 
 if __name__ == "__main__":
