@@ -13,7 +13,7 @@ def test():
   return "test is working"
 
 @app.route("/history")
-def test():
+def history():
   return render_template("history.html)
 
 
